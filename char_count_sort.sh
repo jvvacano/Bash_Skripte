@@ -3,11 +3,11 @@
 # wc -m counts characters [-c counts bytes?!]
 
 echo "Let's count some characters"
-echo 
+echo
 for FILENAME in "*.txt" "*.tsv"
 do
   wc -m $FILENAME | sort -n
 done
 echo
 echo "Done! Happy?"
-echo "If you like counting so much, why not check out Adam Buxton's "Counting Song" on youtube..."
+echo "If you like counting so much, why not check out Adam Buxton's "Counting Song" on youtube...?"
