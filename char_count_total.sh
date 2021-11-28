@@ -7,26 +7,26 @@ echo "Let's count some characters"
 echo 
 for TXTFILE in "*.txt"
 do
-  wc -m $TXTFILE | sort -n | tail -1 > txtcount.tmp
+  wc -m $TXTFILE | sort -n | tail -1 > txtcount_tmp
 done
 
 
 for TSVFILE in "*.tsv"
 do
-  wc -m $TSVFILE | sort -n | tail -1 > tsvcount.tmp
+  wc -m $TSVFILE | sort -n | tail -1 > tsvcount_tmp
 done
 
 echo "Number of characters in txt files:"
-cat txtcount.tmp
-
+cat txtcount_tmp
+echo
 echo "Number of characters in tsv files:"
-cat tsvcount.tmp
-
-# echo "Total number of characters:"
-# for FILES in "*.tsv" "*.txt" 
-# do
-#   wc -m $FILES | tail -1
-# done
+cat tsvcount_tmp
+echo
+echo "Total number of characters:"
+for FILES in "*.t*" 
+do
+   wc -m $FILES | tail -1
+done
 
 echo
 echo "Done! Happy?"
