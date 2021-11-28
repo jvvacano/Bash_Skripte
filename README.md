@@ -10,6 +10,6 @@ Hier liegen meine _fantastischen_ neuen Bash-Skripte. Cool, oder?
 - zusätzliche Skripte hinzugefügt, die linkisch mit Wordcount herumspielen
   - char_count zählt die Buchstaben in sämtlichen txt- und tsv-Dateien im Verzeichnis
   - char_count_sort macht dasselbe wie char_count, sortiert die Ausgabe jedoch
-  - char_count_total zählt die Zeichen, gibt jedoch nur __einen__ Gesamtwert für die Zeichen sämtlichen tsv- und __einen__ für die Zeichen in den txt-Dateien sowie des **Gesamtwert insgesamt** aus.
+  - char_count_total zählt die Zeichen, gibt jedoch nur __einen__ Gesamtwert für die Zeichen in sämtlichen tsv- und __einen__ für die Zeichen in sämtlichen txt-Dateien sowie den Gesamtwert an Zeichen aus.
 
 [Link](https://youtu.be/WXvsl8xgRxc), der im Skript erwähnt wird.
