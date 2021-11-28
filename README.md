@@ -12,4 +12,5 @@ Hier liegen meine _fantastischen_ neuen Bash-Skripte. Cool, oder?
   - char_count_sort macht dasselbe wie char_count, sortiert die Ausgabe jedoch
   - char_count_total zählt die Zeichen, gibt jedoch nur __einen__ Gesamtwert für die Zeichen in sämtlichen tsv- und __einen__ für die Zeichen in sämtlichen txt-Dateien sowie den Gesamtwert an Zeichen aus.
 
-[Link](https://youtu.be/WXvsl8xgRxc), der im Skript erwähnt wird.
+___
+[Link](https://youtu.be/WXvsl8xgRxc "Adam Buxton, Counting Song, auf Youtube"), der im Skript erwähnt wird.
